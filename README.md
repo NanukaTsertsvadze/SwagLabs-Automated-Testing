@@ -29,7 +29,6 @@ This project automates testing for the Sauce Demo login form using WebDriverIO, 
 
   ```bash
    npm install mocha log4js
-
 ## Running the Tests
 
 Before running the tests, ensure your `package.json` includes the necessary scripts for WebDriverIO. If not already set up, you may need to configure it as follows:
