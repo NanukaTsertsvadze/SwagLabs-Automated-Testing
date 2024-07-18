@@ -1,18 +1,36 @@
-[2024-07-12T04:13:59.866] [INFO] default - Opened login page
-[2024-07-12T04:13:59.996] [INFO] default - Opened login page
-[2024-07-12T04:14:04.611] [INFO] default - UC-1: Error message for empty credentials validated
-[2024-07-12T04:14:04.616] [INFO] default - Test case completed
-[2024-07-12T04:14:04.622] [INFO] default - Opened login page
-[2024-07-12T04:14:05.054] [INFO] default - UC-1: Error message for empty credentials validated
-[2024-07-12T04:14:05.059] [INFO] default - Test case completed
-[2024-07-12T04:14:05.073] [INFO] default - Opened login page
-[2024-07-12T04:14:05.276] [INFO] default - UC-2: Error message for empty password field validated
-[2024-07-12T04:14:05.278] [INFO] default - Test case completed
-[2024-07-12T04:14:05.280] [INFO] default - Opened login page
-[2024-07-12T04:14:05.719] [INFO] default - UC-3: Logged in successfully with accepted credentials
-[2024-07-12T04:14:05.720] [INFO] default - Test case completed
-[2024-07-12T04:14:06.089] [INFO] default - UC-2: Error message for empty password field validated
-[2024-07-12T04:14:06.092] [INFO] default - Test case completed
-[2024-07-12T04:14:06.101] [INFO] default - Opened login page
-[2024-07-12T04:14:06.911] [INFO] default - UC-3: Logged in successfully with accepted credentials
-[2024-07-12T04:14:06.912] [INFO] default - Test case completed
+[2024-07-18T08:19:41.825] [INFO] default - Opened login page
+[2024-07-18T08:19:41.911] [INFO] default - Opened login page
+[2024-07-18T08:19:43.692] [INFO] default - UC-1: Error message for empty credentials validated
+[2024-07-18T08:19:43.696] [INFO] default - Test case completed
+[2024-07-18T08:19:43.702] [INFO] default - Opened login page
+[2024-07-18T08:19:44.126] [INFO] default - UC-1: Error message for empty credentials validated
+[2024-07-18T08:19:44.130] [INFO] default - Test case completed
+[2024-07-18T08:19:44.138] [INFO] default - Opened login page
+[2024-07-18T08:19:44.399] [INFO] default - UC-2: Error message for empty password field validated
+[2024-07-18T08:19:44.403] [INFO] default - Test case completed
+[2024-07-18T08:19:44.406] [INFO] default - Opened login page
+[2024-07-18T08:19:44.938] [INFO] default - UC-3: Logged in successfully with accepted credentials
+[2024-07-18T08:19:44.939] [INFO] default - Test case completed
+[2024-07-18T08:19:45.154] [INFO] default - UC-2: Error message for empty password field validated
+[2024-07-18T08:19:45.156] [INFO] default - Test case completed
+[2024-07-18T08:19:45.160] [INFO] default - Opened login page
+[2024-07-18T08:19:45.728] [INFO] default - UC-3: Logged in successfully with accepted credentials
+[2024-07-18T08:19:45.729] [INFO] default - Test case completed
+[2024-07-18T08:26:35.403] [INFO] default - Opened login page
+[2024-07-18T08:26:35.528] [INFO] default - Opened login page
+[2024-07-18T08:26:37.987] [INFO] default - UC-1: Error message for empty credentials validated
+[2024-07-18T08:26:37.991] [INFO] default - Test case completed
+[2024-07-18T08:26:37.994] [INFO] default - Opened login page
+[2024-07-18T08:26:38.640] [INFO] default - UC-1: Error message for empty credentials validated
+[2024-07-18T08:26:38.644] [INFO] default - Test case completed
+[2024-07-18T08:26:38.653] [INFO] default - Opened login page
+[2024-07-18T08:26:38.725] [INFO] default - UC-2: Error message for empty password field validated
+[2024-07-18T08:26:38.728] [INFO] default - Test case completed
+[2024-07-18T08:26:38.732] [INFO] default - Opened login page
+[2024-07-18T08:26:39.349] [INFO] default - UC-3: Logged in successfully with accepted credentials
+[2024-07-18T08:26:39.350] [INFO] default - Test case completed
+[2024-07-18T08:26:39.482] [INFO] default - UC-2: Error message for empty password field validated
+[2024-07-18T08:26:39.484] [INFO] default - Test case completed
+[2024-07-18T08:26:39.492] [INFO] default - Opened login page
+[2024-07-18T08:26:40.115] [INFO] default - UC-3: Logged in successfully with accepted credentials
+[2024-07-18T08:26:40.116] [INFO] default - Test case completed

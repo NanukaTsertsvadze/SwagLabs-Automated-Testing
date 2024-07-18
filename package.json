@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wdio": "wdio run ./wdio.conf.js"
+    "wdio:test": "wdio run ./wdio.conf.js",
+    "test:chrome": "wdio wdio.conf.js --capabilities={\"browserName\":\"chrome\"}",
+    "test:edge": "wdio wdio.conf.js --capabilities={\"browserName\":\"MicrosoftEdge\"}"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,7 @@
     "@wdio/selenium-standalone-service": "^8.15.0",
     "@wdio/spec-reporter": "^8.39.0",
     "chromedriver": "^126.0.4",
+    "dotenv": "^16.4.5",
     "edgedriver": "^5.6.0",
     "selenium-standalone": "^10.0.0"
   },
@@ -92,7 +95,6 @@
     "devtools-protocol": "^0.0.1302984",
     "diff": "^5.2.0",
     "diff-sequences": "^29.6.3",
-    "dotenv": "^16.4.5",
     "eastasianwidth": "^0.2.0",
     "easy-table": "^1.2.0",
     "edge-paths": "^3.0.5",
