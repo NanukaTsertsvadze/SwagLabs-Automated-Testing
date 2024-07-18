@@ -16,11 +16,37 @@ This project automates testing for the Sauce Demo login form using WebDriverIO, 
    
    ```bash
    git clone git@github.com:NanukaTsertsvadze/SwagLabs-Automated-Testing.git
-   
 2. Navigate to the project directory.
 3. Initialize the project with npm by running the following command:
+
    ```bash
    npm init -y
+4.Set up WebDriverIO using the following command:
+
+  ```bash
+   npm init wdio
+5. Install Mocha and log4js by running:
+
+  ```bash
+   npm install mocha log4js
+
+## Running the Tests
+
+Before running the tests, ensure your `package.json` includes the necessary scripts for WebDriverIO. If not already set up, you may need to configure it as follows:
+
+1. Open `package.json` in  project.
+2. Ensure the `scripts` section includes the following:
+   ```json
+   {
+     "scripts": {
+       "wdio:test": "wdio wdio.conf.js"
+     }
+   }
+
+To run the tests, use the following command:
+
+  ```bash
+  npm run wdio:test
 
 ## Test Scenarios
 
