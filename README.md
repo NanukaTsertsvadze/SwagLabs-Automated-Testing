@@ -44,10 +44,17 @@ Before running the tests, ensure your `package.json` includes the necessary scri
      }
    }
 
-To run the tests, use the following command:
-      ```
+To run the tests on Chrome and Microsoft Edge together, use the following command:
+      
 
-         npm run wdio:test
+        npm run wdio:test
+To run the tests on Microsoft Edge:
+
+        npm run test:edge
+        
+To run the tests on Google Chrome:
+
+        npm run test:chrome
 
 ## Test Scenarios
 
