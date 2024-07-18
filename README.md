@@ -10,6 +10,18 @@ This project automates testing for the Sauce Demo login form using WebDriverIO, 
 - Chrome and Edge browsers
 - Mocha test framework
 
+## Installation
+
+1. Clone the repository to your local machine:
+   
+   ```bash
+   git clone git@github.com:NanukaTsertsvadze/SwagLabs-Automated-Testing.git
+   
+2. Navigate to the project directory.
+3. Initialize the project with npm by running the following command:
+   ```bash
+   npm init -y
+
 ## Test Scenarios
 
 - **UC-1:** Test Login form with empty credentials
