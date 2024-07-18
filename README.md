@@ -21,15 +21,17 @@ This project automates testing for the Sauce Demo login form using WebDriverIO, 
 
    ```bash
    npm init -y
-4.Set up WebDriverIO using the following command:
+4. Set up WebDriverIO using the following command:
 
-  ```bash
+   ```bash
    npm init wdio
+
 5. Install Mocha and log4js by running:
 
-  ```bash
-   npm install mocha log4js
-## Running the Tests
+     ```bash
+      npm install mocha log4js
+
+## Running Tests
 
 Before running the tests, ensure your `package.json` includes the necessary scripts for WebDriverIO. If not already set up, you may need to configure it as follows:
 
@@ -43,9 +45,9 @@ Before running the tests, ensure your `package.json` includes the necessary scri
    }
 
 To run the tests, use the following command:
+      ```
 
-  ```bash
-  npm run wdio:test
+         npm run wdio:test
 
 ## Test Scenarios
 
@@ -59,4 +61,4 @@ Tests are executed in parallel using WebDriverIO's configuration in `wdio.conf.j
 
 ## Additional Notes
 
-- Ensure Chrome and Edge browsers are installed and accessible.
+Ensure Chrome and Edge browsers are installed and accessible.
