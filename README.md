@@ -40,7 +40,9 @@ Before running the tests, ensure your `package.json` includes the necessary scri
    ```json
    {
      "scripts": {
-       "wdio:test": "wdio wdio.conf.js"
+       "wdio:test": "wdio wdio.conf.js",
+       "test:chrome": "wdio wdio.conf.js --capabilities='{\"browserName\":\"chrome\"}'",
+       "test:edge": "wdio wdio.conf.js --capabilities='{\"browserName\":\"MicrosoftEdge\"}'"
      }
    }
 
