@@ -1,4 +1,6 @@
 const { existsSync, mkdirSync } = require('fs');
+const browserName = process.env.BROWSER_NAME || 'chrome';
+
 exports.config = {
     //
     // ====================
@@ -51,11 +53,7 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        browserName: 'chrome',
-        maxInstances: 1
-    },
-    {
-        browserName: 'MicrosoftEdge',
+        browserName: browserName,
         maxInstances: 1
     }],
 

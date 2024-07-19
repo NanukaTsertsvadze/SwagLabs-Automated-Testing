@@ -25,7 +25,8 @@ describe('Check login functionality of Sauce Demo Login Page -', () => {
     it('Check that user cannot login with empty credentials after clearing fields', async () => {
         const { username, password, errorMessage } = testData.emptyUsernamePassword;
         await loginPage.SetFields(username, password);
-        await loginPage.clearFields();
+        await loginPage.clearUsernameField();
+        await loginPage.clearPasswordField();
         await loginPage.loginButton.click();
         try {
             expect(await loginPage.errorMessage).toBeDisplayed();
@@ -39,7 +40,7 @@ describe('Check login functionality of Sauce Demo Login Page -', () => {
     it('Check that user cannot login with empty password field', async () => {
         const { username, password, errorMessage } = testData.emptyPassword;
         await loginPage.SetFields(username, password);
-        await loginPage.clearPassword();
+        await loginPage.clearPasswordField();
 
         // Check if password field value is cleared
         expect((await loginPage.password).getValue()).toHaveValue('');
