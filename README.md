@@ -41,15 +41,20 @@ Before running the tests, ensure your `package.json` includes the necessary scri
    {
      "scripts": {
        "wdio:test": "wdio wdio.conf.js",
-       "test:chrome": "wdio wdio.conf.js --capabilities='{\"browserName\":\"chrome\"}'",
-       "test:edge": "wdio wdio.conf.js --capabilities='{\"browserName\":\"MicrosoftEdge\"}'"
+       "test:all": "npm-run-all test:chrome test:edge",
+       "test:chrome": "cross-env BROWSER_NAME=chrome wdio wdio.conf.js",
+       "test:edge": "cross-env BROWSER_NAME=MicrosoftEdge wdio wdio.conf.js"
      }
    }
+3.Before running the tests, make sure you have all the required dependencies installed. You can install them using:
+  ```
+     npm install --save-dev cross-env
+     npm install --save-dev npm-run-all
+  ```
+To run the tests on both Google Chrome and Microsoft Edge sequentially, use the following command:
 
-To run the tests on Chrome and Microsoft Edge together, use the following command:
-      
 
-        npm run wdio:test
+        npm run test:all
 To run the tests on Microsoft Edge:
 
         npm run test:edge
